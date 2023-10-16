@@ -1,0 +1,16 @@
+<html>
+    <head><thile> 조건연산자 실습 </thile></head>
+    <body>
+        <script>
+            var num1, num2, temp, max;
+            num1 = parseInt(prompt("1 number:"));
+            num2 = parseInt(prompt("2 number:"));
+            num3 = parseInt(prompt("3 number:"));
+            temp = (num1 > num2) ? num1 : num2;
+            max = (num3 > temp) ? num3 : temp;
+            temp = (num1%2==0) ? "짝수" : "홀수";
+            document.write("maximum value : " + max + "<BR>");
+            document.write("num1 value 값은 : " + temp + "<BR>");
+        </script>
+    </body>
+</html>
